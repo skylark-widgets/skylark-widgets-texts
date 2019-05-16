@@ -1,0 +1,41 @@
+{
+  "name": "skylark-ui-inputs",
+  "description": "The skylark input widget library",
+  "version": "0.9.0",
+  "keywords": [
+    "css",
+    "less",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "homepage": "https://github.com/skylarkui/skylark-ui-inputs/",
+  "author": "Hudaokeji, Inc.",
+  "license": "MIT",
+  "scripts": {
+    "build": "sbundle build ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skylarkui/skylark-ui-inputs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skylarkui/skylark-ui-inputs/issues"
+  },
+  "dependencies": {
+    "skylark-langx": "git+https://github.com/skylarklangx/skylark-langx.git#master",
+    "skylark-utils-dom": "git+https://github.com/skylarkutils/skylark-utils-dom.git#master"
+  },
+  "skylarkjs": {
+    "build": {
+      "prepare": {
+        "cjstoamd": true
+      }
+    }
+  },
+  "engines": {
+    "node": ">=0.10.1"
+  }
+}
