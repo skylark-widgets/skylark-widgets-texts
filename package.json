@@ -1,5 +1,5 @@
 {
-  "name": "skylark-ui-inputs",
+  "name": "skylark-widgets-inputs",
   "description": "The skylark input widget library",
   "version": "0.9.0",
   "keywords": [
@@ -11,7 +11,7 @@
     "framework",
     "web"
   ],
-  "homepage": "https://github.com/skylarkui/skylark-ui-inputs/",
+  "homepage": "https://github.com/skylark-widgets/skylark-widgets-inputs/",
   "author": "Hudaokeji, Inc.",
   "license": "MIT",
   "scripts": {
@@ -19,10 +19,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/skylarkui/skylark-ui-inputs.git"
+    "url": "https://github.com/skylark-widgets/skylark-widgets-inputs.git"
   },
   "bugs": {
-    "url": "https://github.com/skylarkui/skylark-ui-inputs/issues"
+    "url": "https://github.com/skylark-widgets/skylark-widgets-inputs/issues"
   },
   "dependencies": {
     "skylark-langx": "git+https://github.com/skylarklangx/skylark-langx.git#master",
