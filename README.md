@@ -1,2 +1,2 @@
-# skylark-ui-inputs
-The skylark input widget library.
+# skylark-widgets-texts
+The skylark text widgets library.
