@@ -1,7 +1,7 @@
 define([
 	"./texts",
 	"./PasswordBox",
-	"./StaticText",
+	"./TextLabel",
 	"./TextArea",
 	"./TextBox"
 ],function(texts){
