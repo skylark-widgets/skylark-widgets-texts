@@ -1,6 +1,7 @@
 define([
 	"./texts",
 	"./PasswordBox",
+	"./SearchBox",
 	"./TextLabel",
 	"./TextArea",
 	"./TextBox"
