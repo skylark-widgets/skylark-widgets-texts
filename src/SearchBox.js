@@ -61,7 +61,7 @@ define([
 			this.search.size.set(this.size.x - this.size.y * 1.4, this.size.y * 0.8);
 			this.search.position.set(this.size.y * 0.2, this.size.y * 0.1);
 			this.search.updateInterface();
-		};
+		}
 	});
 
 	return texts.SearchBox = SearchBox;
