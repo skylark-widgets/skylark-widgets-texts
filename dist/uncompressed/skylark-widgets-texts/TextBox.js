@@ -20,6 +20,7 @@ define([
 
 			this._elm.type = "text";
 			//this._elm.style.backgroundColor = Editor.theme.boxColor;
+			this._elm.style.backgroundColor = skin.boxColor;
 			this._elm.style.color = skin.textColor;
 			this._elm.style.margin = "0";
 			this._elm.style.outline = "none";
