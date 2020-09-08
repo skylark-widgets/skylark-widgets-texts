@@ -332,6 +332,7 @@ define('skylark-widgets-texts/SearchBox',[
 			var skin = this.getSkin();
 			//this.searchIcon.setImage(Global.FILE_PATH + "icons/misc/search.png");
 			this.searchIcon.setImage(skin.searchIconUrl);
+			this.searchIcon.setImage(skin.searchIconUrl);
 		},
 
 		setOnChange : function(callback) {
