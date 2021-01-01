@@ -287,11 +287,13 @@ define('skylark-widgets-texts/PasswordBox',[
 
 define('skylark-widgets-texts/SearchBox',[
 	"skylark-widgets-base/Widget",
+	"skylark-widgets-base/panels/Panel",
 	"skylark-widgets-base/ImagePane",
 	"./texts",
 	"./TextBox"
 ],function(
 	Widget,
+	Panel,
 	ImagePane,
 	texts,
 	TextBox
@@ -305,10 +307,10 @@ define('skylark-widgets-texts/SearchBox',[
 	 * @extends {Widget}
 	 * @param {Widget} parent Parent element.
 	 */
-	var SearchBox = Widget.inherit({
+	var SearchBox = Panel.inherit({
 		"klassName" : "SearchBox",
 		"_construct" : function(parent)	{
-			Widget.prototype._construct.call(this, parent, "div");
+			Panel.prototype._construct.call(this, parent, "div");
 
 			/**
 			 * Input text box of the search box.
@@ -340,7 +342,7 @@ define('skylark-widgets-texts/SearchBox',[
 		},
 
 		updateSize : function() {
-			Widget.prototype.updateSize.call(this);
+			Panel.prototype.updateSize.call(this);
 
 			this.searchIcon.size.set(this.size.y * 0.6, this.size.y * 0.6);
 			this.searchIcon.position.set(this.size.y * 0.2, this.size.y * 0.2);
