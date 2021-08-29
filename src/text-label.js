@@ -1,6 +1,6 @@
 define([
-	"skylark-widgets-base/Widget",
-	"skylark-widgets-base/mixins/TextMixin",
+	"skylark-widgets-base/widget",
+	"skylark-widgets-base/mixins/text-mixin",
 	"./texts"
 ],function(
 	Widget,

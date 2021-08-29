@@ -1,9 +1,9 @@
 define([
-	"skylark-widgets-base/Widget",
-	"skylark-widgets-base/panels/Panel",
-	"skylark-widgets-base/ImagePane",
+	"skylark-widgets-base/widget",
+	"skylark-widgets-base/panels/panel",
+	"skylark-widgets-base/image-pane",
 	"./texts",
-	"./TextBox"
+	"./text-box"
 ],function(
 	Widget,
 	Panel,

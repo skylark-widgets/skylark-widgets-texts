@@ -1,6 +1,6 @@
 define([
 	"./texts",
-	"./TextBox"
+	"./text-box"
 ],function(TextBox){
 	"use strict";
 

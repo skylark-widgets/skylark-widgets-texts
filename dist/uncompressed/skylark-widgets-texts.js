@@ -96,8 +96,8 @@ define('skylark-widgets-texts/texts',[
 });
 
 
-define('skylark-widgets-texts/TextBox',[
-	"skylark-widgets-base/Widget",
+define('skylark-widgets-texts/text-box',[
+	"skylark-widgets-base/widget",
 	"./texts"	
 ],function(Widget,texts){
 	"use strict";
@@ -260,9 +260,9 @@ define('skylark-widgets-texts/TextBox',[
 
 	return texts.TextBox = TextBox;
 });
-define('skylark-widgets-texts/PasswordBox',[
+define('skylark-widgets-texts/password-box',[
 	"./texts",
-	"./TextBox"
+	"./text-box"
 ],function(TextBox){
 	"use strict";
 
@@ -285,12 +285,12 @@ define('skylark-widgets-texts/PasswordBox',[
 	return texts.PasswordBox = PasswordBox;
 });
 
-define('skylark-widgets-texts/SearchBox',[
-	"skylark-widgets-base/Widget",
-	"skylark-widgets-base/panels/Panel",
-	"skylark-widgets-base/ImagePane",
+define('skylark-widgets-texts/search-box',[
+	"skylark-widgets-base/widget",
+	"skylark-widgets-base/panels/panel",
+	"skylark-widgets-base/image-pane",
 	"./texts",
-	"./TextBox"
+	"./text-box"
 ],function(
 	Widget,
 	Panel,
@@ -356,9 +356,9 @@ define('skylark-widgets-texts/SearchBox',[
 
 	return texts.SearchBox = SearchBox;
 });
-define('skylark-widgets-texts/TextLabel',[
-	"skylark-widgets-base/Widget",
-	"skylark-widgets-base/mixins/TextMixin",
+define('skylark-widgets-texts/text-label',[
+	"skylark-widgets-base/widget",
+	"skylark-widgets-base/mixins/text-mixin",
 	"./texts"
 ],function(
 	Widget,
@@ -399,8 +399,8 @@ define('skylark-widgets-texts/TextLabel',[
 
 	return texts.TextLabel = TextLabel;
 });
-define('skylark-widgets-texts/TextArea',[
-	"skylark-widgets-base/Widget",
+define('skylark-widgets-texts/text-area',[
+	"skylark-widgets-base/widget",
 	"./texts"	
 ],function(Widget,texts){
 	"use strict";
@@ -610,11 +610,11 @@ define('skylark-widgets-texts/TextArea',[
 });
 define('skylark-widgets-texts/main',[
 	"./texts",
-	"./PasswordBox",
-	"./SearchBox",
-	"./TextLabel",
-	"./TextArea",
-	"./TextBox"
+	"./password-box",
+	"./search-box",
+	"./text-label",
+	"./text-area",
+	"./text-box"
 ],function(texts){
 	return texts;
 });

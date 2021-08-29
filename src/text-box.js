@@ -1,5 +1,5 @@
 define([
-	"skylark-widgets-base/Widget",
+	"skylark-widgets-base/widget",
 	"./texts"	
 ],function(Widget,texts){
 	"use strict";

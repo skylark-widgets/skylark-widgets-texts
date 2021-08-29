@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-widgets/skylark-widgets-texts/
  * @license MIT
  */
-define(["./texts","./PasswordBox","./SearchBox","./TextLabel","./TextArea","./TextBox"],function(e){return e});
+define(["./texts","./password-box","./search-box","./text-label","./text-area","./text-box"],function(e){return e});
 //# sourceMappingURL=sourcemaps/main.js.map

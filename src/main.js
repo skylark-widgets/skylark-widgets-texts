@@ -1,10 +1,10 @@
 define([
 	"./texts",
-	"./PasswordBox",
-	"./SearchBox",
-	"./TextLabel",
-	"./TextArea",
-	"./TextBox"
+	"./password-box",
+	"./search-box",
+	"./text-label",
+	"./text-area",
+	"./text-box"
 ],function(texts){
 	return texts;
 });
